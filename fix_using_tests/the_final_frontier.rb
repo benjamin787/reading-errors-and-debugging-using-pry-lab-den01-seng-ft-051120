@@ -15,8 +15,7 @@ end
 
 
 
-def engage
-  generate_star_date
+def engage(star_date)
   state_log(star_date)
   puts cap_log
 end
