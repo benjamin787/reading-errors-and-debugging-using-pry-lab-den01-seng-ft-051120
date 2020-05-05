@@ -16,7 +16,6 @@ end
 
 
 def engage
-  binding.pry 
-  puts state_log(star_date)
-  star_date
+  state_log(star_date)
+  puts cap_log
 end
