@@ -14,6 +14,7 @@ end
 
 
 def engage(star_date)
+  binding.pry
   state_log(star_date)
   puts cap_log
 end
