@@ -12,7 +12,7 @@ def state_log(star_date)
   cap_log = "Captain's Log, star date #{star_date}."
 end
 
-
+binding.pry 
 def engage(star_date)
   binding.pry
   state_log(star_date)
