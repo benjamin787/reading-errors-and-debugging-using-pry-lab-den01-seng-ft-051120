@@ -12,7 +12,6 @@ def state_log(star_date)
   cap_log = "Captain's Log, star date #{star_date}."
 end
 
-generate_star_date
 
 def engage(star_date)
   state_log(star_date)
